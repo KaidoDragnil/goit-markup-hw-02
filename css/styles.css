@@ -9,7 +9,7 @@ body {
 /* HEADER */
 .logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17; /* 116.667% */
@@ -34,7 +34,7 @@ body {
 .link-navigation:focus {
   color: #404bbf;
 }
-address {
+.our-address {
   font-style: normal;
 }
 .contacts {
@@ -60,6 +60,7 @@ address {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
+  text-align: center;
 }
 .hero-image-button {
   background-color: #4d5ae5;
@@ -70,6 +71,7 @@ address {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 .hero-image-button:hover,
 .hero-image-button:focus {
